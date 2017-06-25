@@ -331,7 +331,7 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   .hide-l,.hide-s {display:block!important;}
   .hide-m {display:none!important;}
   nav {
-    display:block;
+    display:flex;
     cursor:pointer;
     line-height:3;
   }
@@ -389,7 +389,12 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   }
   .nav-text {
     color:#fff;
-    display:block;
+
+    display: flex;
+justify-content: flex-end;
+margin-top: -10px;
+
+
     font-size:1.2rem;
     line-height:3;
     margin-right:0.625rem;

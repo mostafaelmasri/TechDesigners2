@@ -1,9 +1,3 @@
-﻿/*
- * Responsee JS - v4.1 - 2017-05-14
- * https://www.myresponsee.com
- * Copyright 2016, Vision Design - graphic zoo
- * Free to use under the MIT license.
-*/
 jQuery(document).ready(function($) {
   //Responsee tabs
   $('.tabs').each(function(intex, element) {
