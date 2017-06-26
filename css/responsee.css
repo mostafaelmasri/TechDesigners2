@@ -389,12 +389,9 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   }
   .nav-text {
     color:#fff;
-
     display: flex;
-justify-content: flex-end;
-margin-top: -10px;
-
-
+    justify-content: flex-end;
+    margin-top: -10px;
     font-size:1.2rem;
     line-height:3;
     margin-right:0.625rem;
